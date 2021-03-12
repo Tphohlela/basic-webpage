@@ -1,100 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simple-grid.css">
     <title>Document</title>
 </head>
-<style>
-    .gridcontainer{
-        display:grid;
-        grid-template-columns:repeat(2, 1fr);
-        grid-gap: 1cm;
-        grid-auto-rows: minmax(100px, auto);
-
-    }
-
-   .foreignlanguage{
-        display:grid;
-        grid-column: 1 / span 3;
-        grid-auto-rows: minmax(100px, auto);
-    }
-</style>
 
 <body>
-    
-    <div class="gridcontainer">
-        <section>
-        <div>
-            <h1>
-                THATO PHOHLELA
-            </h1>
-        </div>
-        <div>    
-            <img src=/home/codex/Desktop/tablemountain1.jpg style="width:200px;height:200px;">
-        
-        </div>
-         </section>
-         <section>
-        <div>
-            <h2>
-                WHICH CITY
-            </h2>
-            <img src=/home/codex/Desktop/seoul.jpg style="width:170px;height:170px;padding-right: 20px;">
-        </div>
-        <div>
-            <h2 style="text-decoration: underline">
-            Seoul
-            </h2>
-            <p style="text-align: left;">
-                Seoul is the capital city of South Korea, one of the top tech countries in the world. This tech also impacts the daily lives of South Koreans through their transport system and the way they shop making both experiences enjoyable and efficient. Despite this, the city has been able to keep some traditional Korean architecture. The way Seoul is able to balance staying true to it's identity whilst elevating it's technology is way too cool. I really want to visit one day.
-            </p>
-        </div>
-    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1>
+                    THATO PHOHLELA
+                </h1>
+            </div>
 
-<section>
-        <div>
-            <div class="foreignlanguage">
-                <h2>
-                    A FOREIGN LANGUAGE
-                </h2>
-                <p style="text-align: left;">
-                    Swahili
-                 </p>
-                 <p>
-                    It's one of the most spoken languages in Africa so I think it would make my travels in Africa easier if I spoke it plus  it's just a beautiful language.
-                 </p>
+            <div class="col-6">
+                <img src=/home/codex/Desktop/tablemountain1.jpg style="width:180px;height:180px;">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h1>
+                        WHICH CITY
+                    </h1>
+
+                    <h2>
                         
-                            <table style="width: 100%";>
-                                <tr>
-                                    <th>English</th>
-                                    <th>Swahili</th>
-                                 </tr>
-                                 
-                                 <tr>
-                                     <td>Hello</td>
-                                    <td>Hujambo </td>
-                                 </tr>
-                        
-                                 <tr>
-                                     <td>How are you</td>
-                                     <td>Habari gani</td>
-                                 </tr>
-                        
-                                 <tr>
-                                     <td>Fine</td>
-                                     <td>nzuri</td>
-                                 </tr>
-                            </table> 
-                        </h4>
-                    </table> 
+                    </h2>
+
                 </div>
+            </div>
         </div>
-
-
-    </div>
-
-</section>
 </body>
+
 </html>
