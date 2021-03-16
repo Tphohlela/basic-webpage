@@ -1,0 +1,192 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    text-align: left;
+    margin: 15px;
+}
+
+body {
+    background-color: rgb(39, 95, 39);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* img{
+     border: 5px solid #555;
+     margin: 15px;
+}*/
+
+section {
+    border-style: solid;
+    border-width: medium;
+    background-color: honeydew;
+    padding: 10px;
+    margin: 25px 50px 75px;
+}
+
+p {
+    font-size:
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(15, 9, 9);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.column3 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.im1 {
+    float: right;
+    padding-left: 25px;
+}
+
+.im2 {
+    float: right;
+    padding-left: 25px;
+}
+
+.im3 {
+    float: right;
+    padding-left: 25px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.cityimage {
+    float: left;
+    width: 170px;
+    height: 170px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.city1{
+    text-align: left; 
+    text-decoration: underline
+}
+
+.citytext{
+    text-align: left;
+}
+
+@media(max-width: 700px) {
+
+    .cityimage {
+        width: 100%;
+        padding-bottom: 30px;
+
+
+    }
+
+    img {
+        width: 150px;
+        height: 180px;
+    }
+
+    .column1 {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .column2 {
+        float: right;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .column3 {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+
+    .im1 {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .im2 {
+        float: left;
+        padding: 10px 10px 10px 10px;
+        padding-right: 30px;
+    }
+
+    .im3 {
+        padding: 10px 10px 10px 10px;
+    }
+
+    /*img{
+    width:10px;
+    height:10px;
+}
+
+.column1 {
+text-align: left;
+float: left;
+width: 100%;
+padding: 10px;
+}
+
+.column2 {
+float: right;
+width: 100%;
+padding: 10px;
+}
+
+.column3 {
+float: left;
+width: 100%;
+padding: 10px;
+}
+
+.im1{
+float:right;
+padding-left: 15px;
+}
+
+.im2{
+float:left;
+padding-left: 15px;
+}
+
+.im3{
+float:right;
+padding-left: 15px;
+}
+*/
+}
