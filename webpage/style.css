@@ -35,7 +35,8 @@ p {
 table,
 th,
 td {
-    border: 1px solid rgb(15, 9, 9);
+     border: 1px solid rgb(15, 9, 9); 
+     border-collapse: collapse;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -71,16 +72,19 @@ td {
 .im1 {
     float: right;
     padding-left: 25px;
+    padding-bottom: 10px;
 }
 
 .im2 {
     float: right;
     padding-left: 25px;
+    padding-bottom: 10px;;
 }
 
 .im3 {
     float: right;
     padding-left: 25px;
+    padding-bottom: 10px;
 }
 
 img {
@@ -92,8 +96,9 @@ img {
     float: left;
     width: 170px;
     height: 170px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    
 }
 
 .city1{
@@ -106,16 +111,18 @@ img {
 }
 
 @media(max-width: 700px) {
-
-    .cityimage {
-        width: 100%;
-        padding-bottom: 30px;
-
-
+    .cityimage{
+        padding-left:2px;
+        height:250px;
+    }
+    .citytext{
+    
+        text-align: left;        
     }
 
+    
     img {
-        width: 150px;
+        width: 180px;
         height: 180px;
     }
 
