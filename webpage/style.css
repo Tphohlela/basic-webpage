@@ -118,8 +118,8 @@ img {
 @media screen and (min-width: 100px) and (max-width :500px){
 
     img{ 
-        width:90px;
-        height: 100px;
+        width:100px;
+        height: 180px;
     }
     .column1 {
         width: 100%;
@@ -196,11 +196,13 @@ img {
         float: right;
         width: 100%;
         padding: 10px 10px 10px 10px;
+        overflow-y: hidden;
     }
 
     .column3 {
         width: 100%;
         padding: 10px 10px 10px 10px;
+        overflow-x: hidden;
     }
 
 
