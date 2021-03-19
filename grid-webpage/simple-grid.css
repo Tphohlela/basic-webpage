@@ -121,38 +121,114 @@ img {
 }
 
 
-@media(max-width: 700px){
+@media screen and (min-width: 100px) and (max-width :500px){
+
+  body{
+    font-size: smaller;
+  }
+
+  img{ 
+      width:100px;
+      height: 180px;
+  }
   .column1 {
-    width: 100%;
-    padding: 10px 10px 10px 10px;
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+  }
+
+  .column2 {
+      float: right;
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+  }
+
+  .column3 {
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+  }
+
+
+  .im1 {
+      padding: 10px 10px 10px 10px;
+  }
+
+  .im2 {
+      float: left;
+      padding: 10px 10px 10px 10px;
+      padding-right: 30px;
+  }
+
+  .im3 {
+      padding: 10px 10px 10px 10px;
+  }
+
+  h1 {
+      font-size: smaller;
+  }
+  
+  h2 {
+      font-size: smaller;
+  }
+  
+  h3{
+      font-size: smaller;
+  }
+
+  p{
+      font-size: smaller;
+  }
 }
 
-.column2 {
-    float: right;
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-}
+  
+@media screen and (min-width: 500px) and (max-width: 1000px){
+  
+  .cityimage{
+      padding-left:2px;
+      height:250px;
+  }
+  .citytext{
+  
+      text-align: left;        
+  }
 
-.column3 {
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-}
+  
+  img {
+      width: 180px;
+      height: 180px;
+  }
+
+  .column1 {
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+  }
+
+  .column2 {
+      float: right;
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+      overflow-y: hidden;
+  }
+
+  .column3 {
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+      overflow-x: hidden;
+  }
 
 
-.im1 {
-    padding: 10px 10px 10px 10px;
-}
+  .im1 {
+      padding: 10px 10px 10px 10px;
+  }
 
-.im2 {
-    float: left;
-    padding: 10px 10px 10px 10px;
-    padding-right: 30px;
-}
+  .im2 {
+      float: left;
+      padding: 10px 10px 10px 10px;
+      padding-right: 30px;
+  }
 
-.im3 {
-    padding: 10px 10px 10px 10px;
-}
-}
+  .im3 {
+      padding: 10px 10px 10px 10px;
+  }
 
 /* POSITIONING */
 
