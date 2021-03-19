@@ -114,11 +114,12 @@ img {
     text-align: left;
 }
 
+
 @media screen and (min-width: 100px) and (max-width :500px){
 
     img{ 
-        width:100px;
-        height: 180px;
+        width:90px;
+        height: 100px;
     }
     .column1 {
         width: 100%;
@@ -149,6 +150,22 @@ img {
 
     .im3 {
         padding: 10px 10px 10px 10px;
+    }
+
+    h1 {
+        font-size: smaller;
+    }
+    
+    h2 {
+        font-size: smaller;
+    }
+    
+    h3{
+        font-size: smaller;
+    }
+
+    p{
+        font-size: smaller;
     }
 }
 
