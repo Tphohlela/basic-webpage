@@ -9,6 +9,10 @@ h1 {
     margin: 15px;
 }
 
+h3{
+    text-align: center;
+}
+
 body {
     background-color: rgb(39, 95, 39);
     background-repeat: no-repeat;
@@ -72,19 +76,19 @@ td {
 .im1 {
     float: right;
     padding-left: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
 }
 
 .im2 {
     float: right;
     padding-left: 25px;
-    padding-bottom: 10px;;
+    padding-bottom: 1px;;
 }
 
 .im3 {
     float: right;
     padding-left: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 1px
 }
 
 img {
