@@ -116,11 +116,16 @@ img {
 }
 
 
-@media screen and (min-width: 100px) and (max-width :500px){
+@media screen and (min-width: 320px) and (max-width :700px){
   .column1 {
     width: 100%;
     padding: 10px 10px 10px 10px;
 }
+
+p{
+  font-size: x-small;
+}
+
 
 h3{
   font-size: smaller;
@@ -130,7 +135,7 @@ h3{
 
 img{
   width: 120px;
-  height:120px;
+  height:200px;
 }
 
 .im2{
